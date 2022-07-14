@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav.sb-topnav.navbar.navbar-expand.navbar-dark.bg-menu {
+    background-image: url('https://amthucxeo.com/images/bg_vang.jpg');
+}
+
+
+
+.navbar-dark .navbar-brand {
+    background-image: url(https://amthucxeo.com/upload/hinhanh/hinnh-logo-fix-7548.png);
+    /* color: rgb(0, 0, 0); */
+    font-weight: 700;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 77px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 70%);
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-image: url('https://amthucxeo.com/images/bg_vang.jpg');
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+.sb-sidenav-dark {
+    background-image: url('https://amthucxeo.com/images/bg_vang.jpg');
+    color: #212529;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+    color: rgb(0 0 0 / 100%);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+    color: rgba(0, 0, 0);
+    width: 20px;
+}
+
+
+
+.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {
+    padding: 1.75rem 1rem 0.75rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.sb-sidenav-dark .sb-sidenav-footer {
+    background-color: #555657;
+    /* color: #fff; */
+}
+
+.sb-topnav.navbar-dark #sidebarToggle {
+    color: rgb(249 0 0);
+    font-size: 19px;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+    color: rgb(0 0 0 / 55%);
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav {
+    padding-top: 42px;
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {
+    margin-top: 30px;
+
+}
+
+.sb-topnav {
+    padding-left: 0;
+    height: 80px;
+    z-index: 1039;
+}
+
+.top-body {
+    display: flex;
+    height: 17vh;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 46px; */
+    margin: 1px 85px -30px 30px;
+
+}
+
+.top-body h1 {
+    padding-left: 17vh;
+}
+
+.top-body a {
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.bottom-body {
+
+    margin: 31px;
+
+}
+
+:root {
+    --color-primary: #7380ec;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-danger: #ff7782;
+    --color--success: #41f1b6;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-dark: #363949;
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light)
+}
+
+main {
+    margin-top: 1.4rem;
+}
+
+main .date {
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1.6rem;
+
+}
+
+main .date input[type="date"] {
+    background: transparent;
+    color: black;
+
+}
+
+main .insights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+
+}
+
+main .insights>div {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+main .insights>div:hover {
+    box-shadow: none;
+}
+
+main .insights>div span {
+    background: coral;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-white);
+    font-size: 2rem;
+
+}
+
+main .insights>div.expenses span {
+    background: var(--color-danger);
+}
+
+main .insights>div.income span {
+    background: var(--color--success);
+}
+
+main .insights>div .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .insights h3 {
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+}
+
+main .insights .progress {
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+main .insights svg {
+    width: 7rem;
+    height: 7rem;
+
+}
+
+main .insights svg circle {
+    fill: none;
+    stroke: var(--color-primary);
+    stroke-width: 14;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 110;
+    stroke-dashoffset: 92;
+
+}
+
+main .insights.sales svg circle {
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .insights.expenses svg circle {
+    stroke-dashoffset: 20;
+    stroke-dasharray: 80;
+}
+
+main .insights.income svg circle {
+    stroke-dashoffset: 110;
+    stroke-dasharray: 35;
+}

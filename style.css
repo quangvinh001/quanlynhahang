@@ -1,0 +1,101 @@
+* {
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+    /* background-color: #f2f2f2; */
+}
+
+.product {
+    /* display: flex; */
+
+}
+
+.product-item-img {
+    height: 200px;
+    width: 200px;
+}
+
+.product .product-item {
+    width: 20%;
+    height: 308px;
+    margin: 15px;
+    /* float: left; */
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    transition: .4s;
+
+
+}
+
+.product-item:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -3px);
+}
+
+.product-item-title {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.thucdon {}
+
+.thucdon .top-thucdon {
+    background: url(./dist/img/banner.jpg) center center no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    display: flex;
+}
+
+.thucdon .text-top {
+    font-family: cursive;
+    font-size: 67px;
+    text-align: center;
+    color: #ff0000;
+}
+
+ul.dropdown-menu.show {
+    background: url('https://amthucxeo.com/images/bg_vang.jpg');
+}
+
+/* .bottom-thudon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 322px 300px 300px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.bottom-img:first-child {
+    background-image: url(./dist/img/product2.jpg);
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.bottom-img:nth-child(2) {
+    background-image: url(./dist/img/product3.jpg);
+    grid-column: 2;
+    grid-row: 1/3;
+}
+
+.bottom-img:nth-child(3) {
+    background-image: url(./dist/img/product3.jpg);
+    grid-column: 3;
+    grid-row: 1/3;
+}
+
+.bottom-img:nth-child(4) {
+    background-image: url(./dist/img/product3.jpg);
+    grid-column: 4;
+    grid-row: 1/3;
+} */
+
+.abc {
+    background: url(./dist/img/goi-nem-nuong-7908.png);
+    height: 100px;
+}
